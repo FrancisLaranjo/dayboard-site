@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; --text: #1d1d1f; --muted: #5f5f66; --bg: #ffffff; --accent: #b86e00; }
+@media (prefers-color-scheme: dark) { :root { --text: #ececec; --muted: #a0a0a8; --bg: #141414; --accent: #f0a63a; } }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 40px 16px; }
+h1 { margin-top: 0; }
+h2 { margin-top: 2em; font-size: 1.1em; }
+a { color: var(--accent); }
